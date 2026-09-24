@@ -1,34 +1,40 @@
-body {
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- background-color: rgb(7, 7, 6);
- color: aliceblue;
+/* 1. RESET UNIVERSAL E ESTILOS BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-nav{
-    text-align: center;
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(7, 7, 6);
+  color: aliceblue;
+}
+
+/* 2. ELEMENTOS DE TEXTO E LINKS*/
+nav {
+  text-align: center;
 }
 
 a {
-    color: chartreuse;
-}
-
-h1, h2, .subtitulo {
-  font-family: 'Helvetica', sans-serif;
-  color: #194676;
+  color: chartreuse;
 }
 
 p {
-    color: rgb(148, 255, 41);
+  color: rgb(148, 255, 41);
 }
 
-main{
-    p{
-        color: aliceblue;
-    }
+/* 3. REGRA COMPARTILHADA (TÍTULOS E SUBTÍTULOS) */
+h1, h2, .subtitulo {
+  font-family: 'Helvetica', sans-serif;
+  color: #194676; /* Sugestão: muda para uma cor mais clara para dar contraste */
 }
 
-footer{
-    p {
-        color: rgb(20, 183, 192);
-    }
+/* 4. CONTEÚDO ESPECÍFICO (MAIN E FOOTER) */
+main p {
+  color: aliceblue;
+}
+
+footer p {
+  color: rgb(20, 183, 192);
 }
