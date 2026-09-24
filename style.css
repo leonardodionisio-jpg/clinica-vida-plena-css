@@ -1,0 +1,34 @@
+body {
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ background-color: rgb(7, 7, 6);
+}
+
+nav{
+    text-align: center;
+}
+
+a {
+    color: chartreuse;
+}
+
+h1 {
+    text-align: center;
+    color: honeydew;
+}
+
+p {
+    color: greenyellow;
+}
+
+main{
+    color: chartreuse;
+    p{
+        color: aliceblue;
+    }
+}
+
+footer{
+    p {
+        color: rgb(174, 176, 47);
+    }
+}
