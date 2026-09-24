@@ -1,6 +1,7 @@
 body {
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  background-color: rgb(7, 7, 6);
+ color: aliceblue;
 }
 
 nav{
@@ -11,9 +12,9 @@ a {
     color: chartreuse;
 }
 
-h1 {
-    text-align: center;
-    color: honeydew;
+h1, h2, .subtitulo {
+  font-family: 'Helvetica', sans-serif;
+  color: #194676;
 }
 
 p {
@@ -21,7 +22,6 @@ p {
 }
 
 main{
-    color: rgb(148, 255, 41);
     p{
         color: aliceblue;
     }
